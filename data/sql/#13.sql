@@ -1,0 +1,1 @@
+select order_id, customer_id, order_purchase_timestamp, order_approved_at, (order_purchase_timestamp - order_approved_at) as difference from orders o

@@ -1,0 +1,1 @@
+select order_status, count(order_id)from orders o group by order_status  

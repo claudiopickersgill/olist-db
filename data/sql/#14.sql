@@ -1,0 +1,1 @@
+select * from order_reviews or2 where review_score >= 3 and review_comment_title is not null and review_comment_message is not null order by review_score desc

@@ -1,0 +1,1 @@
+select customer_city, count(distinct customer_unique_id) as qtd from customers group by customer_city order by qtd desc limit 10
